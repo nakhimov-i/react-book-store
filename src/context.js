@@ -87,7 +87,7 @@ class ProductProvider extends Component {
 
     decrement = (id) => {
         let tempCart = [...this.state.cart];
-        let selectedProduct = tempCart.find(item => item.id == id);
+        let selectedProduct = tempCart.find(item => item.id === id);
 
         const index = tempCart.indexOf(selectedProduct);
         const product = tempCart[index];
