@@ -7,13 +7,13 @@
 }
 
 body {
-  font-family: 'Oswald', sans-serif !important;  /*!important нужен, чтобы перекрыть стиль бутстрапа который стоит по умолчанию*/
+  font-family: Georgia, 'Times New Roman', Times, serif !important;  /*!important нужен, чтобы перекрыть стиль бутстрапа который стоит по умолчанию*/
   background: var(--mainWhite) !important;
   color: var(--mainDark) !important;
 }
 
 .text-title {
-  font-family: 'Permanent Marker', cursive;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   letter-spacing: 0.3rem;
   text-transform: uppercase;
 }

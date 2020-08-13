@@ -8,17 +8,9 @@ export default class Details extends Component {
         return (
             <ProductConsumer>
                 {(value) => {
-                    const {id, company, info, img, price, inCart, title} = value.detailProduct;
+                    const {id, author, info, img, price, inCart, title} = value.detailProduct;
                     return (
                         <div className='container py-5'>
-
-                            {/* title start */}
-                            <div className='row'>
-                                <div className='col-10 mx-auto my-5 text-center text-blue'>
-                                    {title}
-                                </div>
-                            </div>
-                             {/* title end */}
 
                              {/* product info */}
                              <div className='row'>
@@ -27,18 +19,18 @@ export default class Details extends Component {
                                     <img src={img} className='img-fluid' alt='product'/>
                                 </div>
                                 {/* product text */}
-                                <div className='col-10 mx-auto col-md-6 my-3 text-capitalize'>
-                                    <h2>model: {title}</h2>
-                                    <h4 className='text-title text-uppercase text-muted mt-3 mb-2'>
-                                        made by : <span className='text-uppercase'>{company}</span> 
-                                    </h4>
-                                    <h4 className='text-blue'>
+                                <div className='col-10 mx-auto col-md-6 my-3'>
+                                    <h3 className='text-blue'>{title}</h3>
+                                    <h3 className='mt-3 mb-2'>
+                                        by <span>{author}</span> 
+                                    </h3>
+                                    <h4 className='text-blue mt-3'>
                                         <strong>
-                                            price : <span>$</span> {price} 
+                                            Price : <span>$</span> {price} 
                                         </strong>
                                     </h4>
-                                    <p className='text-capitalize font-weight-bold mt-3 mb-0'>
-                                        some info about the product:
+                                    <p className='font-weight-bold mt-3 mb-0'>
+                                        Some info about the book:
                                     </p>
                                     <p className='text-muted lead'>{info}</p>
 
