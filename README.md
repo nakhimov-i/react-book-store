@@ -1,4 +1,4 @@
-#### Description of my project
+## Description of my project
 ### This is a bookstore named BPB which is the abbreviation for "Best Programming Books". 
 You can add an item to the cart or delete it from there.You can also increase the number of products in the shopping cart, and the price will also change.
 
