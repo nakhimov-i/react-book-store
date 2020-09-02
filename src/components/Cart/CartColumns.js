@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 export default function CartColumn() {
   return (
@@ -22,8 +22,7 @@ export default function CartColumn() {
         <div className='col-10 mx-auto col-lg-2'>
           <p className='text-uppercase'>total</p>
         </div>
-      </div>   
+      </div>
     </div>
-  )
+  );
 }
-

@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
 export default class Default extends Component {
   render() {
@@ -11,8 +11,7 @@ export default class Default extends Component {
             <h5>not found</h5>
           </div>
         </div>
-                
       </div>
-    )
+    );
   }
 }
